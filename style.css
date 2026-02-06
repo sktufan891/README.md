@@ -1,0 +1,37 @@
+body{
+  margin:0;
+  background:#020b14;
+  overflow:hidden;
+  font-family:Arial;
+  color:#00e5ff;
+}
+
+#core{
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:36px;
+  padding:30px;
+  border:2px solid #00e5ff;
+  border-radius:50%;
+  box-shadow:0 0 40px #00e5ff;
+  cursor:pointer;
+}
+
+#cam{
+  position:fixed;
+  right:15px;
+  bottom:15px;
+  width:220px;
+  height:160px;
+  border:2px solid #00e5ff;
+  border-radius:12px;
+  background:black;
+}
+
+#hud{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+}
